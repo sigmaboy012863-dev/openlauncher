@@ -1,5 +1,3 @@
-![graphic](https://raw.githubusercontent.com/OpenLauncherTeam/openlauncher/master/fastlane/metadata/android/en-US/images/featureGraphic.png)
-
 ### Project discontinued
 The OpenLauncher project is discontinued. The original project author has left the project many years ago and didn't come back. Also the project has not seen active development for years, or at least no considerable interest by the community to contribute. Technology doesn't stop in time and the Android platforms regulary gets new things that are expected by launchers. As well active development is require to support newer Android versions. I have been taking the time to keeping the project alive for many years, from now on I stop doing that. Move on and don't consider this codebase as it's dated. You likely are better off starting something fresh or fork a other more recent launcher project.
 
