@@ -11,7 +11,6 @@ android {
         flavorDimensions "versionCode"
         multiDexEnabled false
 
-
         buildConfigField "boolean", "IS_TEST_BUILD", "false"
         buildConfigField "boolean", "IS_GPLAY_BUILD", "false"
         buildConfigField "String[]", "DETECTED_ANDROID_LOCALES", "${findUsedAndroidLocales()}"
@@ -35,11 +34,11 @@ android {
         }
 
         flavorAtest {
-          buildConfigField "boolean", "IS_NIGHTLY_BUILD", "true"
-          versionCode = Integer.parseInt(new Date().format('yyMMdd'))
-          versionName = new Date().format('yyMMdd')
-          applicationId "com.benny.openlauncher.nightly"
-          resValue 'string', 'app_name', "OL Nightly"
+            buildConfigField "boolean", "IS_NIGHTLY_BUILD", "true"
+            versionCode = Integer.parseInt(new Date().format('yyMMdd'))
+            versionName = new Date().format('yyMMdd')
+            applicationId "com.benny.openlauncher.nightly"
+            resValue 'string', 'app_name', "OL Nightly"
         }
     }
 
@@ -53,6 +52,7 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+
         debug {
             applicationIdSuffix ".debug"
         }
@@ -62,7 +62,8 @@ android {
         resolutionStrategy {
             eachDependency { details ->
                 if (details.requested.group == 'com.android.support') {
-                    if (details.requested.name != 'multidex' && details.requested.name != 'multidex-instrumentation') {
+                    if (details.requested.name != 'multidex' &&
+                        details.requested.name != 'multidex-instrumentation') {
                         details.useVersion "${version_library_appcompat}"
                     }
                 }
@@ -77,7 +78,17 @@ android {
     }
 
     lintOptions {
-        disable 'MissingTranslation', 'InvalidPackage', 'ObsoleteLintCustomCheck', 'DefaultLocale', 'UnusedAttribute', 'VectorRaster', 'InflateParams', 'IconLocation', 'UnusedResources', 'TypographyEllipsis'
+        disable 'MissingTranslation',
+                'InvalidPackage',
+                'ObsoleteLintCustomCheck',
+                'DefaultLocale',
+                'UnusedAttribute',
+                'VectorRaster',
+                'InflateParams',
+                'IconLocation',
+                'UnusedResources',
+                'TypographyEllipsis'
+
         abortOnError false
     }
 }
@@ -107,7 +118,7 @@ dependencies {
     implementation 'com.nononsenseapps:filepicker:4.2.1'
     implementation 'org.slf4j:slf4j-android:1.7.21'
 
-    implementation ('com.github.ozodrukh:CircularReveal:2.0.1@aar') {
+    implementation('com.github.ozodrukh:CircularReveal:2.0.1@aar') {
         transitive = true
     }
 
@@ -119,12 +130,17 @@ dependencies {
     implementation "com.jakewharton:butterknife:${version_library_butterknife}"
 
     // Processors
-    def anpros = ["com.jakewharton:butterknife-compiler:${version_library_butterknife}"]
+    def anpros = [
+        "com.jakewharton:butterknife-compiler:${version_library_butterknife}"
+    ]
+
     for (anpro in anpros) {
         annotationProcessor anpro
     }
 }
 
 repositories {
+    google()
     mavenCentral()
+    maven { url 'https://jitpack.io' }
 }
