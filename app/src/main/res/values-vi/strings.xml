@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Intro -->
+    <string name="intro1_text">Một trình khởi chạy mã nguồn mở với nhiều tính năng hữu ích.</string>
+    <string name="intro1_community">Cộng đồng lớn</string>
+    <string name="intro1_features">Đầy đủ tính năng</string>
+    <string name="intro1_customizable">Có thể tùy chỉnh</string>
+    <string name="intro2_text">Vuốt từ cạnh trái của màn hình chính để mở thanh tiện ích và chọn một thao tác.</string>
+    <string name="intro3_text">Bạn có thể chọn kiểu cho ngăn ứng dụng và ẩn các ứng dụng không sử dụng trong phần cài đặt.</string>
+    <string name="intro4_text">Tìm kiếm trên web hoặc lọc các ứng dụng từ thanh tìm kiếm.</string>
+
+    <!-- Minibar -->
+    <string name="minibar">Thanh tiện ích</string>
+    <string name="minibar_title__edit_minibar">Chỉnh sửa thanh tiện ích</string>
+    <string name="minibar_summary__edit_minibar">Thay đổi bố cục thanh tiện ích.</string>
+    <string name="minibar_title__set_wallpaper">Đặt hình nền</string>
+    <string name="minibar_summary__set_wallpaper">Đặt hình nền cho màn hình chính.</string>
+    <string name="minibar_title__lock_screen">Khóa màn hình</string>
+    <string name="minibar_summary__lock_screen">Khóa màn hình ngay lập tức.</string>
+    <string name="minibar_title__device_settings">Cài đặt thiết bị</string>
+    <string name="minibar_summary__device_settings">Lối tắt đến phần cài đặt thiết bị.</string>
+    <string name="minibar_title__launcher_settings">Cài đặt trình khởi chạy</string>
+    <string name="minibar_summary__launcher_settings">Lối tắt đến cài đặt OpenLauncher.</string>
+    <string name="minibar_title__volume_dialog">Bảng âm lượng</string>
+    <string name="minibar_summary__volume_dialog">Hiển thị tất cả thanh điều chỉnh âm lượng khả dụng.</string>
+    <string name="minibar_title__app_drawer">Mở ngăn ứng dụng</string>
+    <string name="minibar_summary__app_drawer">Mở ngăn ứng dụng.</string>
+    <string name="minibar_title__search_bar">Mở thanh tìm kiếm</string>
+    <string name="minibar_summary__search_bar">Mở thanh tìm kiếm.</string>
+    <string name="minibar_title__mobile_network">Cài đặt mạng di động</string>
+    <string name="minibar_summary__mobile_network">Lối tắt đến phần cài đặt mạng di động.</string>
+    <string name="minibar_title__notification_bar">Hiển thị thanh thông báo</string>
+    <string name="minibar_summary__notification_bar">Mở rộng khu vực thông báo ở phía trên màn hình.</string>
+    <string name="minibar_title__camera">Máy ảnh</string>
+    <string name="minibar_summary__camera">Chụp ảnh bằng ứng dụng máy ảnh.</string>
+
+    <!-- About -->
+    <string name="about_libs">Thư viện mã nguồn mở</string>
+    <string name="about_rate">Đánh giá</string>
+    <string name="about_credit">Đóng góp viên</string>
+    <string name="community">Cộng đồng</string>
+    <string name="more_info_foss">Thông tin thêm về việc đóng góp cho các dự án mã nguồn mở trên Android.</string>
+    <string name="join_community">Tham gia cộng đồng</string>
+    <string name="bug_reports_suggest_improvements">Báo cáo lỗi và đề xuất cải tiến trên GitHub.</string>
+    <string name="help_translating_this_app">Dịch ứng dụng này sang các ngôn ngữ khác bằng GitHub hoặc Stringlate!</string>
+    <string name="source_code">Mã nguồn</string>
+    <string name="project_license">Giấy phép dự án</string>
+    <string name="project_contribution_info">Thông tin đóng góp</string>
+    <string name="more_info_on_how_to_contribute_to_this_project">Thông tin về cách bạn có thể đóng góp cho dự án này.</string>
+    <string name="contribute_code_to_this_project_anybody_welcome">Đóng góp mã nguồn cho dự án. Mọi người đều được chào đón gửi các thay đổi!</string>
+    <string name="project_team">Nhóm phát triển</string>
+    <string name="contributors_public_info">Đóng góp viên có thể cung cấp thông tin để hiển thị tại đây sau khi cải thiện trình khởi chạy.</string>
+    <string name="contribute">Đóng góp</string>
+    <string name="help">Trợ giúp</string>
+    <string name="licenses">Giấy phép</string>
+    <string name="contributors">Đóng góp viên</string>
+    <string name="changelog">Nhật ký thay đổi</string>
+    <string name="more">Thêm</string>
+    <string name="open_source_licenses">Giấy phép mã nguồn mở</string>
+    <string name="rate_the_app">Đánh giá</string>
+    <string name="translate">Dịch</string>
+    <string name="bug_reports">Báo cáo lỗi</string>
+    <string name="more_info_support">Thông tin thêm về việc quyên góp hoặc các hình thức hỗ trợ khác cho dự án này.</string>
+    <string name="android_contribution_guide">Phát triển Android</string>
+
+    <!-- Settings -->
+    <string name="pref_title__settings">Cài đặt</string>
+    <string name="pref_title__desktop">Màn hình chính</string>
+    <string name="pref_title__dock">Thanh dock</string>
+    <string name="pref_title__app_drawer">Ngăn ứng dụng</string>
+    <string name="pref_title__appearance">Giao diện</string>
+    <string name="pref_title__behavior">Hành vi</string>
+    <string name="pref_title__advanced">Nâng cao</string>
+    <string name="pref_title__hide_apps">Ẩn ứng dụng</string>
+    <string name="pref_title__about">Giới thiệu</string>
+
+    <string name="pref_title__size">Kích thước</string>
+    <string name="pref_title__style">Kiểu</string>
+    <string name="pref_title__color">Màu sắc</string>
+    <string name="pref_title__icons">Biểu tượng</string>
+    <string name="pref_title__search_bar">Thanh tìm kiếm</string>
+    <string name="pref_title__interfaces">Giao diện</string>
+    <string name="pref_title__inputs">Nhập liệu</string>
+    <string name="pref_title__feels">Cảm giác</string>
+    <string name="pref_title__gestures">Cử chỉ</string>
+    <string name="pref_title__others">Khác</string>
+    <string name="pref_title__animations">Hoạt ảnh</string>
+    <string name="pref_title__debug">Gỡ lỗi</string>
+
+    <string name="pref_title__desktop_indicator_style">Kiểu chỉ báo</string>
+    <string name="pref_title__desktop_wallpaper_scroll">Cuộn hình nền</string>
+    <string name="pref_title__desktop_orientation">Hướng màn hình</string>
+    <string name="pref_title__desktop_show_grid">Hiển thị lưới</string>
+    <string name="pref_summary__desktop_show_grid">Hiển thị lưới hướng dẫn khi kéo các mục.</string>
+    <string name="pref_title__desktop_fullscreen">Toàn màn hình</string>
+    <string name="pref_summary__desktop_fullscreen">Bật chế độ toàn màn hình cho màn hình chính.</string>
+    <string name="pref_title__desktop_show_position_indicator">Chỉ báo vị trí</string>
+    <string name="pref_summary__desktop_show_position_indicator">Hiển thị chỉ báo trang bên dưới màn hình chính.</string>
+    <string name="pref_title__desktop_show_label">Hiển thị nhãn</string>
+    <string name="pref_summary__desktop_show_label">Hiển thị nhãn mục bên dưới biểu tượng.</string>
+    <string name="pref_title__desktop_background_color">Nền</string>
+    <string name="pref_title__desktop_inset_color">Thanh hệ thống</string>
+    <string name="pref_title__desktop_folder_color">Thư mục</string>
+
+    <string name="pref_title__search_bar_enable">Thanh tìm kiếm</string>
+    <string name="pref_summary__search_bar_enable">Hiển thị thanh tìm kiếm phía trên màn hình chính.</string>
+    <string name="pref_title__search_bar_starts_with">Tìm ứng dụng theo tên</string>
+    <string name="pref_summary__search_bar_starts_with">Tìm các ứng dụng bắt đầu bằng nội dung tìm kiếm.</string>
+    <string name="pref_title__search_bar_base_uri">URI tìm kiếm</string>
+    <string name="pref_summary__search_bar_base_uri">Đặt URI được sử dụng cho các tìm kiếm trên web.</string>
+    <string name="pref_dialog__search_bar_base_uri">Nhập URI sẽ được sử dụng cho các tìm kiếm trên web. Có thể sử dụng thẻ {query} làm
+      vị trí giữ chỗ cho truy vấn tìm kiếm. Nếu không sử dụng vị trí giữ chỗ, truy vấn tìm kiếm sẽ được thêm vào cuối URI.</string>
+    <string name="pref_title__search_bar_force_browser">Bắt buộc tìm kiếm bằng trình duyệt</string>
+    <string name="pref_summary__search_bar_force_browser">Luôn sử dụng trình duyệt cho các tìm kiếm trực tuyến.</string>
+    <string name="pref_title__search_bar_show_hidden_apps">Hiển thị ứng dụng đã ẩn</string>
+    <string name="pref_summary__search_bar_show_hidden_apps">Bao gồm các ứng dụng đã ẩn trong kết quả tìm kiếm.</string>
+
+    <string name="pref_title__date_bar">Thanh ngày</string>
+    <string name="pref_title__date_bar_text_color">Màu chữ</string>
+    <string name="pref_title__date_bar_date_format">Định dạng ngày</string>
+    <string name="pref_title__date_bar_date_format_custom_1">Định dạng tùy chỉnh: Dòng 1</string>
+    <string name="pref_title__date_bar_date_format_custom_2">Định dạng tùy chỉnh: Dòng 2</string>
+
+    <string name="pref_title__dock_show_label">Hiển thị nhãn</string>
+    <string name="pref_summary__dock_show_label">Hiển thị nhãn mục bên dưới biểu tượng.</string>
+    <string name="pref_title__dock_background_color">Nền</string>
+
+    <string name="pref_title__drawer_style">Kiểu</string>
+    <string name="pref_summary__drawer_style">Chọn giữa ngăn ứng dụng dạng trang và dạng dọc.</string>
+    <string name="pref_title__drawer_show_card_view">Dạng thẻ</string>
+    <string name="pref_summary__drawer_show_card_view">Hiển thị thẻ phía trên nền ngăn ứng dụng.</string>
+    <string name="pref_title__drawer_remember_position">Nhớ trang cuối</string>
+    <string name="pref_summary__drawer_remember_position">Ghi nhớ trang hiện tại của ngăn ứng dụng.</string>
+    <string name="pref_title__drawer_show_position_indicator">Chỉ báo vị trí</string>
+    <string name="pref_summary__drawer_show_position_indicator">Hiển thị chỉ báo trang hoặc thanh cuộn tùy theo kiểu.</string>
+    <string name="pref_title__drawer_show_label">Hiển thị nhãn</string>
+    <string name="pref_summary__drawer_show_label">Hiển thị nhãn mục bên dưới biểu tượng.</string>
+    <string name="pref_title__drawer_background_color">Nền</string>
+    <string name="pref_title__drawer_card_color">Dạng thẻ</string>
+    <string name="pref_title__drawer_label_color">Nhãn</string>
+    <string name="pref_title__drawer_fast_scroll_color">Thanh cuộn</string>
+    <string name="pref_title__drawer_label_font_size">Cỡ chữ nhãn</string>
+
+    <string name="pref_title__gesture_notifications">Huy hiệu thông báo</string>
+    <string name="pref_summary__gesture_notifications">Cập nhật biểu tượng bằng huy hiệu khi có thông báo.</string>
+    <string name="pref_title__gesture_feedback">Phản hồi cử chỉ</string>
+    <string name="pref_summary__gesture_feedback">Nhận phản hồi khi nhấn giữ một mục trên màn hình chính.</string>
+    <string name="pref_title__gesture_quick_swipe">Vuốt nhanh để mở ngăn</string>
+    <string name="pref_summary__gesture_quick_swipe">Vuốt lên trên thanh dock để mở ngăn ứng dụng.</string>
+    <string name="pref_title__gesture_double_tap">Nhấn đúp</string>
+    <string name="pref_title__gesture_swipe_up">Vuốt lên</string>
+    <string name="pref_title__gesture_swipe_down">Vuốt xuống</string>
+    <string name="pref_title__gesture_pinch_in">Thu nhỏ</string>
+    <string name="pref_title__gesture_pinch_out">Phóng to</string>
+
+    <string name="pref_title__theme">Chủ đề</string>
+    <string name="pref_summary__theme">Đặt chủ đề cho toàn bộ ứng dụng.</string>
+    <string name="pref_title__primary_color">Màu chính</string>
+    <string name="pref_summary__primary_color">Đặt màu chính cho ứng dụng.</string>
+    <string name="pref_title__icon_size">Kích thước biểu tượng</string>
+    <string name="pref_summary__icon_size">Kích thước của tất cả biểu tượng ứng dụng.</string>
+    <string name="pref_title__icon_pack">Gói biểu tượng</string>
+    <string name="pref_summary__icon_pack">Chọn một gói biểu tượng đã cài đặt.</string>
+    <string name="pref_title__animation_speed_modifier">Tốc độ hoạt ảnh</string>
+    <string name="pref_summary__animation_speed_modifier">Điều chỉnh tốc độ tổng thể của hoạt ảnh.</string>
+
+    <string name="pref_title__language">Ngôn ngữ</string>
+    <string name="pref_summary__language">Thay đổi ngôn ngữ được sử dụng trong toàn bộ trình khởi chạy.</string>
+    <string name="pref_title__backup">Sao lưu</string>
+    <string name="pref_summary__backup">Sao lưu màn hình chính và cài đặt vào bất kỳ vị trí nào.</string>
+    <string name="pref_title__restore">Khôi phục</string>
+    <string name="pref_summary__restore">Khôi phục màn hình chính và cài đặt.</string>
+    <string name="pref_title__reset_settings">Đặt lại cài đặt</string>
+    <string name="pref_summary__reset_settings">Xóa các tệp nội bộ được sử dụng để lưu trữ cài đặt.</string>
+    <string name="pref_title__reset_database">Đặt lại cơ sở dữ liệu</string>
+    <string name="pref_summary__reset_database">Xóa tất cả các mục khỏi màn hình chính.</string>
+    <string name="pref_title__restart">Khởi động lại</string>
+    <string name="pref_summary__restart">Có thể sử dụng tùy chọn này để áp dụng thủ công một số cài đặt.</string>
+
+    <!-- Arrays -->
+    <string name="vertical_scroll_drawer">Dọc</string>
+    <string name="horizontal_paged_drawer">Theo trang</string>
+
+    <string name="indicator_mode_dots">Chấm</string>
+    <string name="indicator_mode_lines">Đường</string>
+
+    <string name="orientation_mode_portrait">Dọc</string>
+    <string name="orientation_mode_rotate">Xoay</string>
+    <string name="orientation_mode_landscape">Ngang</string>
+
+    <string name="scroll_normal">Bình thường</string>
+    <string name="scroll_inverse">Ngược</string>
+    <string name="scroll_off">Tắt</string>
+
+    <string name="none">Không có</string>
+    <string name="app">Ứng dụng</string>
+
+    <string name="light">Sáng</string>
+    <string name="dark">Tối</string>
+    <string name="black">Đen</string>
+
+    <!-- Dialogs -->
+    <string name="please_wait">Đang tìm kiếm các ứng dụng đã cài đặt. Vui lòng chờ.</string>
+    <string name="are_you_sure">Bạn có chắc không? Hành động này không thể hoàn tác nếu bạn không có bản sao lưu.</string>
+    <string name="device_admin_title">Quản trị thiết bị</string>
+    <string name="device_admin_summary">OpenLauncher yêu cầu quyền quản trị thiết bị để khóa màn hình.</string>
+    <string name="select_app">Chọn ứng dụng</string>
+    <string name="select_wallpaper">Chọn hình nền</string>
+    <string name="select_icon_pack">Chọn gói biểu tượng</string>
+    <string name="volume_level_ringtone">Nhạc chuông</string>
+    <string name="volume_level_notification">Thông báo</string>
+    <string name="volume_level_system">Hệ thống</string>
+    <string name="volume_level_media">Đa phương tiện</string>
+    <string name="notification_title">Quyền truy cập thông báo</string>
+    <string name="notification_summary">OpenLauncher yêu cầu quyền truy cập thông báo để hiển thị huy hiệu trên biểu tượng.</string>
+
+    <!-- Other -->
+    <string name="columns">Cột</string>
+    <string name="rows">Hàng</string>
+    <string name="on">Bật</string>
+    <string name="off">Tắt</string>
+    <string name="search_hint">Tìm kiếm</string>
+    <string name="bad_format">Định dạng không hợp lệ</string>
+    <string name="version">Phiên bản</string>
+    <string name="enable">Bật</string>
+    <string name="placeholder">Xin chào thế giới!</string>
+    <string name="custom">Tùy chỉnh</string>
+    <string name="default_folder">Chưa đặt tên</string>
+    <string name="default_icons">Mặc định</string>
+
+    <!-- Drag Option View -->
+    <string name="edit">Chỉnh sửa</string>
+    <string name="info">Thông tin</string>
+    <string name="uninstall">Gỡ cài đặt</string>
+    <string name="remove">Xóa</string>
+    <string name="resize">Thay đổi kích thước</string>
+
+    <!-- Desktop Option View -->
+    <string name="home">Trang chính</string>
+    <string name="action">Thao tác</string>
+    <string name="lock">Khóa</string>
+    <string name="widget">Tiện ích</string>
+
+    <!-- Toasts -->
+    <string name="toast_not_enough_space">Không đủ chỗ trống.</string>
+    <string name="toast_app_uninstalled">Đã gỡ cài đặt ứng dụng.</string>
+    <string name="toast_device_admin_required">Vui lòng bật quyền quản trị thiết bị.</string>
+    <string name="toast_notification_permission_required">Vui lòng bật quyền thông báo.</string>
+    <string name="toast_backup_success">Đã sao lưu thành công.</string>
+    <string name="toast_backup_error">Đã xảy ra lỗi.</string>
+    <string name="toast_settings_restored">Đã khôi phục cài đặt.</string>
+    <string name="toast_database_deleted">Đã xóa cơ sở dữ liệu.</string>
+    <string name="toast_icon_pack_error">Vui lòng cấp quyền đọc bộ nhớ ngoài.</string>
+    <string name="toast_remove_from_group_first">Trước tiên hãy xóa mục khỏi nhóm.</string>
+    <string name="toast_update_group_due_to_missing_items">Các ứng dụng đã gỡ cài đặt hoặc bị ẩn đã được xóa khỏi nhóm này.</string>
+</resources>
